@@ -28,13 +28,3 @@ You need PRIVKEY while installation
 7) Go to local wallet debug console (Tools - Debug Console) and run your masternode:
 
 masternode start-missing Alias
-
-
-Useful VPS commands :
-
-cts-cli getinfo
-
-cts-cli mnsync status
-
-cts-cli masternode status
-
