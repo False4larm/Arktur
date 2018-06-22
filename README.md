@@ -1,5 +1,5 @@
 # Arktur
-MN Script
+
 
 ART Masternode Setup Guide
 
