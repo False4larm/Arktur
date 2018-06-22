@@ -4,21 +4,20 @@ MN Script
 ART Masternode Setup Guide
 
 1) Go to local wallet debug console (Tools - Debug Console) and enter the following command:
-masternode genkey
-Save the result (PRIVKEY)
+"masternode genkey"
+Save the PRIVKEY
 
 2) Create new wallet with label
 
-3) Send 5000 ART to Masternode wallet address and wait for 15 confirmations.
+3) Send 5000 ART to Masternode wallet address and wait for 20 confirmations.
 
 4) Enter the following command:
 masternode outputs
-Proof of transaction (TX_ID and TX_INDEX)
 
 5) Tools - Open Masternode Configuration file and add the following line (port=40001):
 MN1 VPS_IP:40001 PRIVKEY TX_ID TX_INDEX
 
-6) Connect to VPS server Terminal and run automatic installation script:
+6) Connect to VPS (ubuntu 16.04x64 with 1 GB ram will be enough) and run automatic installation script:
 
 wget -q https://raw.githubusercontent.com/False4larm/Arktur/master/Masternode.sh && bash installer.sh
 
