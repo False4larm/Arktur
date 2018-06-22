@@ -14,7 +14,9 @@ Save the PRIVKEY
 4) Enter the following command:
 masternode outputs
 
-5) Tools - Open Masternode Configuration file and add the following line (port=40001):
+5) Tools - Open Masternode Configuration file and add the following line :
+
+
 MN1 VPS_IP:40001 PRIVKEY TX_ID TX_INDEX
 
 6) Connect to VPS (ubuntu 16.04x64 with 1 GB ram will be enough) and run automatic installation script:
