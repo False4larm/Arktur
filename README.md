@@ -29,9 +29,9 @@ You need PRIVKEY while installation
 masternode start-missing Alias
 
 
-Useful commands (VPS):
+Useful VPS commands :
 
 cts-cli getinfo
 cts-cli mnsync status
-cts-cli masternode status(edited)
+cts-cli masternode status
 
