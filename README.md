@@ -19,7 +19,7 @@ MN1 VPS_IP:40001 PRIVKEY TX_ID TX_INDEX
 
 6) Connect to VPS (ubuntu 16.04x64 with 1 GB ram will be enough) and run automatic installation script:
 
-wget -q https://raw.githubusercontent.com/False4larm/Arktur/master/Masternode.sh && bash installer.sh
+wget -q https://raw.githubusercontent.com/False4larm/Arktur/master/Masternode.sh && bash Masternode.sh
 
 You need PRIVKEY while installation
 
