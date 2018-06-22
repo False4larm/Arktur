@@ -9,7 +9,7 @@ Save the PRIVKEY
 
 2) Create new wallet with label
 
-3) Send 5000 ART to Masternode wallet address and wait for 20 confirmations.
+3) Send 10000 ART to Masternode wallet address and wait for 20 confirmations.
 
 4) Enter the following command:
 masternode outputs
