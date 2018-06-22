@@ -31,6 +31,8 @@ masternode start-missing Alias
 Useful VPS commands :
 
 cts-cli getinfo
+
 cts-cli mnsync status
+
 cts-cli masternode status
 
